@@ -35,7 +35,7 @@ client.on("message", async message => {
   if (message.author.bot) return;
   if (!message.guild) return;
 
-  if (message.content.startsWith(PREFIX)) {
+  if (message.content.startsWith(process.env.PREFIX)) {
     const args = message.content
       .slice(PREFIX.length)
       .trim()
