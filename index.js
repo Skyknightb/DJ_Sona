@@ -9,7 +9,7 @@ const { join } = require("path");
 
 client.login(process.env.BOT_TOKEN);
 client.commands = new discord.Collection();
-client.prefix = PREFIX;
+client.prefix = process.env.PREFIX;
 client.queue = new Map();
 
 /**
