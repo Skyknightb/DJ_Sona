@@ -7,9 +7,9 @@ const client = new discord.Client({ disableEveryone: true, disabledEvents: ["TYP
 const { readdirSync } = require("fs");
 const { join } = require("path");
 
-client.login(process.env.TOKEN);
+client.login(TOKEN);
 client.commands = new discord.Collection();
-client.prefix = process.env.PREFIX;
+client.prefix = PREFIX;
 client.queue = new Map();
 
 /**
