@@ -37,7 +37,7 @@ client.on("message", async message => {
 
   if (message.content.startsWith(process.env.PREFIX)) {
     const args = message.content
-      .slice(PREFIX.length)
+      .slice(process.env.PREFIX.length)
       .trim()
       .split(/ +/);
     const command = args.shift().toLowerCase();
