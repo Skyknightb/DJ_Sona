@@ -1,0 +1,6 @@
+{
+	"TOKEN": "Your bot Token",
+	"YOUTUBE_API_KEY": "Your YT API key",
+	"MAX_PLAYLIST_SIZE": 10,
+	"PREFIX": "!"
+}
