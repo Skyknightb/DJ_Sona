@@ -1,0 +1,23 @@
+{
+  "name": "dj_sona",
+  "version": "1.0.0",
+  "description": "Simple Discord Music bot featuring DJ Sona from League of Legends",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Skyknight Beoulve",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.2.1",
+    "discord.js": "^12.2.0",
+    "discord.js-musicbot-addon-v2": "^1.10.4",
+    "discordjs-music-plugin": "^14.1.0",
+    "dotenv": "^8.2.0",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^2.1.1",
+    "ytdl-core-discord": "^1.2.0",
+    "ytpl": "^0.1.20"
+  }
+}
