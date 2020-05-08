@@ -15,6 +15,7 @@
     "discord.js-musicbot-addon-v2": "^1.10.4",
     "discordjs-music-plugin": "^14.1.0",
     "dotenv": "^8.2.0",
+    "prism-media": "1.2.2",
     "simple-youtube-api": "^5.2.1",
     "ytdl-core": "^2.1.1",
     "ytdl-core-discord": "^1.2.0",
