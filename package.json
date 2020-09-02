@@ -2,6 +2,9 @@
   "name": "dj_sona",
   "version": "1.0.0",
   "description": "Simple Discord Music bot featuring DJ Sona from League of Legends",
+  "engines": {
+    "node": "12.x"
+  }
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
