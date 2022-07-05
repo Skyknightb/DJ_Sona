@@ -13,7 +13,7 @@
   "author": "Skyknight Beoulve",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.2.1",
+    "@discordjs/opus": "^0.8.0",
     "discord.js": "^12.2.0",
     "discord.js-musicbot-addon-v2": "^1.10.4",
     "discordjs-music-plugin": "^14.1.0",
